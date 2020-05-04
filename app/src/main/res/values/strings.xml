@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tv Series App</string>
+    <string name="choose_button">Выбрать сериал</string>
+    <string name="TV">сериал</string>
+
+    //Создаем массив с данными из строк для выпадающего списка c item  списка (5 атрибутов - жанры)
+    <string-array name="choose_genre">
+        <item>Комедия</item>
+        <item>Фэнтези</item>
+        <item>Ужасы</item>
+        <item>Фантастика</item>
+        <item>Криминал</item>
+    </string-array>
+
+
+</resources>
