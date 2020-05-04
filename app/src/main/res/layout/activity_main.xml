@@ -18,13 +18,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/choose_button"
+        android:onClick="onClickChoose"
         android:text="@string/choose_button"
-        />
+        tools:ignore="OnClick" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/TV"
+        android:id="@+id/series_text"
         android:layout_marginTop="20dp"
         android:textSize="20sp"
 
